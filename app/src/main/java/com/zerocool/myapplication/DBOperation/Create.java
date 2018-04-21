@@ -13,7 +13,7 @@ import com.google.firebase.database.FirebaseDatabase;
  */
 
 public class Create {
-
+ 
     public void createUserProfile( ModelCreate modelCreate) {
 
         DatabaseReference create = FirebaseDatabase.getInstance().getReference("UserProfile");
